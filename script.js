@@ -49,14 +49,15 @@ const participant = {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCH0BbtPEORMMM2UWxc2b1ZCBpwp-luHL8",
-  authDomain: "ankieta-raim.firebaseapp.com",
-  databaseURL: "https://ankieta-raim-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "ankieta-raim",
-  storageBucket: "ankieta-raim.appspot.com",
-  messagingSenderId: "557619376772",
-  appId: "1:557619376772:web:dd6136b34cc506b34f88d1",
-  measurementId: "G-RPB9C1MRJH"
+    //add your web app info from your firebase
+  apiKey: 
+  authDomain: 
+  databaseURL: 
+  projectId: 
+  storageBucket: 
+  messagingSenderId: 
+  appId: 
+  measurementId: 
 };
 
 // Initialize Firebase
