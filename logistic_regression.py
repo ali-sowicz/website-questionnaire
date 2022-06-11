@@ -13,7 +13,7 @@ df["Age"].replace({"0-15": 0, "16-19": 1, "20-24": 2, "28 +": 3}, inplace=True)
 df["Gender"].replace({"kobieta": 0, "mężczyzna": 1}, inplace=True)
 df["Confident"].replace({"not confident": 0, "semi-confident": 1, "confident": 2}, inplace=True)
 df["Happy"].replace({"not happy": 0, "semi-happy": 1, "happy": 2}, inplace=True)
-df["Addicted"].replace({"not addicted": 0, "semi-addicted": 1, "addicted": 2}, inplace=True)
+df["Addicted"].replace({"not addicted": 0, "semi-addicted": 1, "addicted": 1}, inplace=True)
 
 X = df.drop(['Addicted'], axis=1)
 y = df['Addicted']
