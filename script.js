@@ -32,7 +32,7 @@ let increment = Math.floor(Math.random() * 10);
 var answers= {};
 var wartosc= null;
 
-// po prostu obj aby mieć zapisane te odpowiedzi
+// object with respondent's data
 const participant = {
     age: null,
     gender: null,
